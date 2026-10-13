@@ -1,0 +1,17 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# local environment
+.venv/
+__pycache__/
+.DS_Store
+
+# original LongHealth repo (clone separately, see README)
+LongHealth
+
+# full raw results (contain benchmark content; never publish)
+replication/results/task1_full/
+replication/results/task1_repo_format/
+replication/results/task23_full/
